@@ -23,6 +23,4 @@ print(Fore.LIGHTCYAN_EX + """
 name = input("Folder name: ")
 os.mkdir(f"{name}")
 
-print(Fore.LIGHTGREEN_EX + "Successfully created folder with the name {name}. \n" + Fore.RESET)
-
-input("Press enter to exit...")
+print(Fore.LIGHTGREEN_EX + "Successfully created folder {name}. \n" + Fore.RESET)
