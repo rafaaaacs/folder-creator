@@ -20,7 +20,7 @@ print(Fore.LIGHTCYAN_EX + """
 
       """)
 
-name = input("What should the folder name be?: ")
+name = input("Folder name: ")
 os.mkdir(f"{name}")
 
 print(Fore.LIGHTGREEN_EX + "Successfully created folder with the name {name}. \n" + Fore.RESET)
